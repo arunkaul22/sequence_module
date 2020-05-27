@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data> 
+        <!-- Sequences for customer -->
+        <record id="sequence_order.seq_order" model="ir.sequence">
+            <field name="name">Sequence Order</field>
+            <field name="code">sequence.order</field>
+            <field name="prefix">Seq Order </field>
+            <field name="padding">001</field>
+        </record>
+    </data>
+</odoo>
